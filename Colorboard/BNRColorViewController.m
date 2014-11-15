@@ -20,6 +20,49 @@
 
 @implementation BNRColorViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    //remove the 'Done' button if this is an existing color
+    if (self.existingColor) {
+        self.navigationItem.rightBarButtonItem = nil;
+    }
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    UIColor *color = self.colorDescription.color;
+    
+    //get the RGB values out of the UIColor object
+    CGFloat red, green, blue;
+    
+    [color getHue:&red
+       saturation:&green
+       brightness:&blue
+            alpha:nil];
+    
+    //set the initial slider values
+    self.redSlider.value = red;
+    self.greenSlider.value = green;
+    self.blueSlider.value = blue;
+    
+    //set the background color and text field value
+    self.view.backgroundColor = color;
+    self.textField.text = self.colorDescription.name;
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    self.colorDescription.name = self.textField.text;
+    self.colorDescription.color = self.view.backgroundColor;
+}
+
 - (IBAction)dismiss:(id)sender
 {
     [self.presentingViewController dismissViewControllerAnimated: YES
