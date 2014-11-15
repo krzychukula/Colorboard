@@ -24,3 +24,7 @@ credit: http://stackoverflow.com/questions/10428629/programatically-set-the-init
 
 
 Push segue is deprecated. Use "Show"
+
+
+Remember to import #import <UIKit/UIKit.h> instead of Foundation
+
