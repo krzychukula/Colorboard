@@ -13,6 +13,7 @@
 		836BA95E1A1741D50096BE64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836BA95C1A1741D50096BE64 /* LaunchScreen.xib */; };
 		836BA96A1A1741D50096BE64 /* ColorboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836BA9691A1741D50096BE64 /* ColorboardTests.m */; };
 		836BA9751A17436D0096BE64 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 836BA9741A17436D0096BE64 /* .gitignore */; };
+		836BA9771A17456F0096BE64 /* Colorboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836BA9761A17456F0096BE64 /* Colorboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		836BA9691A1741D50096BE64 /* ColorboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorboardTests.m; sourceTree = "<group>"; };
 		836BA9731A1742260096BE64 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		836BA9741A17436D0096BE64 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		836BA9761A17456F0096BE64 /* Colorboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Colorboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		836BA94C1A1741D50096BE64 /* Colorboard */ = {
 			isa = PBXGroup;
 			children = (
+				836BA9761A17456F0096BE64 /* Colorboard.storyboard */,
 				836BA9511A1741D50096BE64 /* AppDelegate.h */,
 				836BA9521A1741D50096BE64 /* AppDelegate.m */,
 				836BA95A1A1741D50096BE64 /* Images.xcassets */,
@@ -199,6 +202,7 @@
 				836BA9751A17436D0096BE64 /* .gitignore in Resources */,
 				836BA95E1A1741D50096BE64 /* LaunchScreen.xib in Resources */,
 				836BA95B1A1741D50096BE64 /* Images.xcassets in Resources */,
+				836BA9771A17456F0096BE64 /* Colorboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
