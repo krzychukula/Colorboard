@@ -47,7 +47,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="IsI-4V-94h" kind="show" id="bZd-iW-J7W"/>
+                                    <segue destination="IsI-4V-94h" kind="show" identifier="ExistingColor" id="bZd-iW-J7W"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -60,7 +60,7 @@
                     <navigationItem key="navigationItem" title="Colors" id="M5S-37-2G6">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Y5R-vp-ZDF">
                             <connections>
-                                <segue destination="cAq-mf-BiI" kind="presentation" id="6pR-Hw-ChC"/>
+                                <segue destination="cAq-mf-BiI" kind="presentation" identifier="NewColor" id="6pR-Hw-ChC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -83,7 +83,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NBJ-3e-X3l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1346" y="1169"/>
+            <point key="canvasLocation" x="1113" y="1166"/>
         </scene>
         <!--Color View Controller-->
         <scene sceneID="b02-MS-ilb">

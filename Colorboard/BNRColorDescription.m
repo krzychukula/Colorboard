@@ -8,6 +8,7 @@
 
 #import "BNRColorDescription.h"
 
+
 @implementation BNRColorDescription
 
 - (instancetype)init
